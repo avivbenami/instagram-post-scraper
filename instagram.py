@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 class InstagramPostScraper:
-    def __init__(self, post_url: list) -> None:
+    def __init__(self, post_url: str) -> None:
         self.post_url = post_url
         self.driver = self._create_driver()
 
